@@ -10,12 +10,22 @@
   },
   "dependencies": {
     "expo": "~47.0.12",
+    "expo-font": "~11.0.1",
     "expo-status-bar": "~1.4.2",
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-dom": "18.1.0",
+    "react-native": "0.70.5",
+    "styled-components": "^5.3.6",
+    "styled-components-react-native": "^1.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "@types/react": "^18.0.26",
+    "@types/react-native": "^0.70.8",
+    "@types/styled-components-react-native": "^5.2.0"
+  },
+  "resolutions": {
+    "styled-components": "^5"
   },
   "private": true
 }
